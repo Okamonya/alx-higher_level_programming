@@ -1,7 +1,14 @@
- #!/usr/bin/python3
+#!/usr/bin/python3
+
+def upper(c):
+    asci = ord(c)
+    if asci >= 97 and asci <= 127:
+        return (chr(65 + (asci - 97)))
+    else:
+        return(c)
+
+
 def uppercase(str):
-    for i in str:
-        if ord(i) >= ord('a') and ord(i) <= ord('z'):
-            i = chr(ord(i) - 32)
-    print("{:s}".format(i), end="")
-    print()
+    for loop in str:
+        print("{}".format(upper(loop)), end="")
+    print("")
