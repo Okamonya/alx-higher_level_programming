@@ -1,8 +1,11 @@
+import numbers
+from tokenize import Number
+
+
 if __name__ == '__main__':
     from add_0 import add
 
 a = 1
 b = 2
 
-c = add(a, b)
-print(c)
+print("{} + {} = {}".format(a, b, add(a, b)))
