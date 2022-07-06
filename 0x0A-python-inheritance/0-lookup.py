@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-''' function that returns the list
-'''
+"""
+Contains the loop function
+"""
 
 
 def lookup(obj):
-    ''' function: lookup()
-    Returns a list object
-    '''
-    return dir(obj)
+    """ returns a list of available and methodes of an objet"""
+    return(dir(obj))

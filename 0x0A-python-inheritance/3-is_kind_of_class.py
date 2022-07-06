@@ -1,12 +1,9 @@
 #!/usr/bin/python3
-''' module: 2-is_same_class
-'''
+"""
+Contains the is same class function
+"""
 
 
 def is_kind_of_class(obj, a_class):
-    '''function: is_kind_of_class
-    obj: an object
-    a_class: a class
-    Returns: Bool
-    '''
-    return isinstance(obj, a_class)
+    """ returns a list of available and methodes of an objet"""
+    return(isinstance(obj, a_class))
